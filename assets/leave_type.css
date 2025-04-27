@@ -1,0 +1,51 @@
+/* Table Styles */
+.table-striped {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #333;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.table-striped thead {
+    background-color: #0033A0; /* Pantone 285 */
+    color: white;
+}
+
+.table-striped tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table-striped th, .table-striped td {
+    padding: 1rem;
+    text-align: left;
+    border-top: 1px solid #dee2e6;
+    vertical-align: middle;
+}
+
+.table-striped .btn {
+    background-color: #FF5E00; /* Pantone Warm Red */
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.table-striped .btn:hover {
+    background-color: #002280; /* Darker shade of Pantone 285 */
+    transform: translateY(-2px);
+}
+
+/* Description Styles */
+.description {
+    display: none;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-left: 5px solid #0033A0; /* Pantone 285 */
+}
+
+.description strong {
+    color: #0033A0; /* Pantone 285 */
+}

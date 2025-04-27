@@ -1,0 +1,56 @@
+/* Style for view_leave.php */
+.view-leave-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dee2e6;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto; /* Center the container with spacing above and below */
+    text-align: center; /* Center the text */
+}
+
+.view-leave-container h2 {
+    color: #0033A0; /* Pantone 285 */
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.view-leave-container p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #FF5E00; /* Pantone Warm Red */
+    border-color: #FF5E00; /* Pantone Warm Red */
+    transition: background-color 0.3s, border-color 0.3s;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #FCFF00; /* Pantone Yellow */
+    border-color: #FCFF00; /* Pantone Yellow */
+    color: #FF5E00; /* Pantone Warm Red */
+}
+
+/* Specific text alignment for view_leave.php */
+.view-leave-container p strong {
+    display: inline-block;
+    width: 150px; /* Adjust width as needed */
+    text-align: right;
+    margin-right: 10px;
+    color: #0033A0; /* Pantone 285 */
+}
+
+.view-leave-container p span {
+    display: inline-block;
+    text-align: left;
+    color: #333;
+}
+
+

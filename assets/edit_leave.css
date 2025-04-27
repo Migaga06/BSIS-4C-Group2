@@ -1,0 +1,74 @@
+/* Style for edit_leave.php */
+.form-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dee2e6;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto; /* Center the container with spacing above and below */
+    text-align: center; /* Center the text */
+}
+
+.form-container h2 {
+    color: #0033A0; /* Pantone 285 */
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.form-container p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+.form-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #0033A0; /* Pantone 285 */
+}
+.form-group {
+    margin-bottom: 15px; /* Add margin-bottom to form-group */
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #FF5E00; /* Pantone Warm Red */
+    border-color: #FF5E00; /* Pantone Warm Red */
+    transition: background-color 0.3s, border-color 0.3s;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #FF5E00; /* Pantone Warm Red */
+    border-color: #FF5E00; /* Pantone Warm Red */
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #0033A0; /* Pantone 285 */
+    border-color: #0033A0; /* Pantone 285 */
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.btn-secondary:hover {
+    background-color: #FF5E00; /* Pantone Warm Red */
+    border-color: #FF5E00; /* Pantone Warm Red */
+    color: #fff;
+}
